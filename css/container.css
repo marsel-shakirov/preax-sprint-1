@@ -1,0 +1,8 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+	padding-block: 3.2rem;
+	padding-inline: var(--container-padding-x);
+}

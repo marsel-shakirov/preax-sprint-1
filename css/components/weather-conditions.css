@@ -1,0 +1,59 @@
+.weather-conditions {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	row-gap: 63px;
+	width: 53.4em;
+	padding: 0.8rem;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.detail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 2rem;
+}
+
+.detail__location {
+	margin-bottom: 0.8rem;
+	font-size: 2.4rem;
+	line-height: 1.3;
+	font-weight: 700;
+}
+
+.detail__week {
+	margin-bottom: 0.8rem;
+}
+
+.degrees {
+	font-size: 11.2rem;
+	line-height: 112px;
+	font-weight: 700;
+}
+
+.forecast {
+	position: relative;
+	font-size: 2rem;
+}
+
+.forecast__title {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 0.8rem;
+	padding-left: 3.1rem;
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.forecast__title::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 24px;
+	height: 24px;
+	background: url('./../../public/images/icons/weather/day/broken-clouds.svg')
+		no-repeat center/cover;
+}

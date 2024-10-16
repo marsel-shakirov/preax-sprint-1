@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@import url('./css/libs/normalize.css');
+
+@import url(./css/variables.css);
+@import url(./css/base.css);
+@import url(./css/container.css);
+@import url(./css/components/wrap-blur.css);
+@import url(./css/components/header.css);
+@import url(./css/components/logo.css);
+@import url(./css/components/search.css);
+@import url(./css/components/main.css);
+@import url(./css/components/svg-icon.css);
+@import url(./css/components/weather-conditions.css);
+@import url(./css/components/widget-lists.css);
+@import url(./css/components/slider.css);
+@import url(./css/components/footer.css);

@@ -1,0 +1,26 @@
+:root {
+	--main-min-width: 1280px;
+
+	--font-family-base: 'Raleway', sans-serif;
+	--font-family-accent: 'Arial' sans-serif;
+	--main-font-size: 62.5%;
+
+	--container-width: 1060px;
+	--container-padding-x: 1.5rem;
+
+	--color-white: rgb(245, 244, 244);
+	--main-color: rgba(245, 244, 244, 0.4);
+	--widget-input-color: rgba(218, 218, 218, 0.5);
+	--main-color-opacity-1: rgba(245, 244, 244, 1);
+	--color-gray: rgba(218, 218, 218, 0.8);
+	--color-thumb: #f5f4f4;
+
+	--svg-stroke: rgba(84, 84, 84, 1);
+	--svg-fill: rgba(84, 84, 84, 1);
+	--svg-hover-stroke: rgba(32, 32, 32, 1);
+	--svg-hover-fill: rgba(32, 32, 32, 1);
+
+	--arrow-main-color: rgba(84, 84, 84, 1);
+
+	--border-radius: 8px;
+}

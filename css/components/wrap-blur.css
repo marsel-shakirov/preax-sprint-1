@@ -1,0 +1,6 @@
+.wrap-blur {
+	min-height: 86rem;
+	border-radius: 10px;
+	-webkit-backdrop-filter: blur(17px);
+	backdrop-filter: blur(17px);
+}

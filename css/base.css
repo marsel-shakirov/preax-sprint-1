@@ -1,0 +1,36 @@
+html {
+	font-size: var(--main-font-size);
+}
+
+body {
+	min-width: 1280px;
+	font-family: var(--font-family-base);
+	font-style: normal;
+	font-weight: 400;
+	font-variant-numeric: lining-nums;
+	background-image: url(./../public/images/bg/weather.jpeg);
+	background-color: rgb(168, 163, 163);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.visibility-hidden {
+	visibility: hidden;
+	opacity: 0;
+}

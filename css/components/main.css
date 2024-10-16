@@ -1,0 +1,11 @@
+.main {
+	padding: 3.2rem;
+	color: var(--color-white);
+}
+
+.weather-wrap {
+	display: flex;
+	align-items: center;
+	min-height: 408px;
+	column-gap: 16px;
+}
