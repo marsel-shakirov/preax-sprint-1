@@ -1,41 +1,42 @@
-export const createListsContent = (widgetLists, data) => {
-	const lists = data.map(({ title, src, value, bar }) => {
-		const { barTitle, isProgressBar, isProgressPercent, maxScale, isRadial } =
-			bar;
-		const li = document.createElement('li');
-		const scale = parseInt(value.match(/\d+/));
+export const createListsContent = (widgetLists, template, widgetData) => {
+	const widgetTitle = template.content.querySelector('.item__title');
+	const widgetImg = template.content.querySelector('.item__icon');
+	const widgetScale = template.content.querySelector('.item__scale');
+	const widgetBar = template.content.querySelector('.item__progress-bar');
+	const widgetInput = template.content.querySelector('.progress-bar__input');
+	const widgetPercent = template.content.querySelector('.item__bar-percent');
+	const widgetItemBar = template.content.querySelector('.item__bar-title');
 
-		const elementPercent = `
-			<div class='progress-bar__percent'>
-				<p class='percent'>0%</p>
-				<p class='percent'>100%</p>
-			</div>`;
+	widgetData.forEach(({ title, src, value, bar }) => {
+		const { isRadial, barTitle, isProgressBar } = bar;
+		widgetTitle.textContent = title;
+		widgetImg.src = src;
+		widgetScale.textContent = value;
+		widgetItemBar.textContent = barTitle;
 
-		const titleBlock = `
-		<p class='item__bar ${
-			!isProgressBar ? 'item__bar_pb_12' : ''
-		}'>${barTitle}</p>`;
+		if (isRadial) {
+			widgetInput.classList.add('input__gradient');
+		} else {
+			widgetInput.classList.remove('input__gradient');
+		}
 
-		const barBlock = `
-			<div class='progress-bar'>
-				<input class='progress-bar__input ${
-					isRadial ? 'input__gradient' : ''
-				}' type="range" id="bar" name="bar" min="0" max="${maxScale}" value="${scale}">
-				${isProgressPercent ? elementPercent : titleBlock}
-			</div>`;
+		if (barTitle) {
+			widgetPercent.style.display = 'none';
+			widgetItemBar.style.display = 'block';
+		} else {
+			widgetPercent.style.display = 'flex';
+			widgetItemBar.style.display = 'none';
+		}
 
-		li.innerHTML = `
-				<article class='widget-item'>
-					<h3 class='item__title'>${title}</h3>
-					<div class="item__block">
-						<img src=${src} alt="" class="item__icon" width='32' height='32'>
-					</div>
-					<p class='item__scale'>${value}</p>
-					${isProgressBar ? barBlock : titleBlock}
-				</article>`;
+		if (isProgressBar) {
+			widgetBar.style.display = 'block';
+			widgetInput.setAttribute('value', `${parseInt(value.slice(0, 2))}`);
+		} else {
+			widgetBar.style.display = 'none';
+			widgetItemBar.classList.add('bar-title_pb_12');
+		}
 
-		return li;
+		let li = template.content.cloneNode(true);
+		widgetLists.append(li);
 	});
-
-	widgetLists.append(...lists);
 };

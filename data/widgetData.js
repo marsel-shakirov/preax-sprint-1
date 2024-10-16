@@ -4,9 +4,7 @@ export const widgetData = [
 		src: '../public/images/icons/widget/humidity.svg',
 		value: '75 %',
 		bar: {
-			maxScale: 100,
 			isProgressBar: true,
-			isProgressPercent: true,
 			isRadial: false,
 		},
 	},
@@ -16,9 +14,7 @@ export const widgetData = [
 		value: '761',
 		bar: {
 			barTitle: 'Повышенное',
-			maxScale: 1000,
 			isProgressBar: true,
-			isProgressPercent: false,
 			isRadial: true,
 		},
 	},
@@ -28,9 +24,7 @@ export const widgetData = [
 		value: '28 км',
 		bar: {
 			barTitle: 'Нормальная',
-			maxScale: 100,
 			isProgressBar: true,
-			isProgressPercent: false,
 			isRadial: false,
 		},
 	},

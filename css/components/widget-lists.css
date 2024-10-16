@@ -18,7 +18,7 @@
 	background-color: var(--main-color);
 }
 
-.progress-bar {
+.item__progress-bar {
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -63,9 +63,10 @@
 	outline: 2px solid rgba(138, 138, 138, 0.1);
 }
 
-.progress-bar__percent {
+.item__bar-percent {
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
 	font-size: 1.2rem;
 	color: #393939;
 }
@@ -77,13 +78,14 @@
 	color: #202020;
 }
 
-.item__bar {
+.item__bar-title {
+	display: none;
 	font-size: 1.2rem;
 	text-align: center;
 	color: #393939;
 }
 
-.item__bar_pb_12 {
+.bar-title_pb_12 {
 	padding-bottom: 1.2rem;
 }
 
