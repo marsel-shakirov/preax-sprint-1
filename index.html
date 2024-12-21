@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Marsel Shakirov" />
+		<meta
+			name="description"
+			content="В меню представлены различные виды пиццы, а также супы, горячие блюда и салаты. "
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Restoapp</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<header class="page-header">
+				<div class="page-header__logo logo">
+					<img
+						src="./images/logo/logo.svg"
+						alt="Приложение restoapp"
+						class="logo__icon"
+						width="137"
+						height="22"
+					/>
+				</div>
+
+				<nav class="page-header__nav nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#" class="nav__link nav__link--active">Меню</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Акции</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">О нас</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">События</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Зоны доставки</a>
+						</li>
+					</ul>
+				</nav>
+
+				<address class="page-header__contacts contacts">
+					<a class="contacts__tel" href="tel:+0(123)4567890"
+						>+0&nbsp(123)&nbsp456&nbsp78-90</a
+					>
+					<p class="contacts__descr">Прием заказов с 10:00 до 22:40</p>
+				</address>
+			</header>
+			<main class="page-main">
+				<section class="menu">
+					<h1 class="menu__title">Меню</h1>
+
+					<nav class="menu__nav nav-menu">
+						<ul class="nav-menu__list">
+							<li class="nav-menu__item">
+								<a href="#" class="nav-menu__link link-pizza">
+									<h2 class="nav-menu__title">Пицца</h2>
+								</a>
+							</li>
+							<li class="nav-menu__item">
+								<a href="#" class="nav-menu__link link-soups">
+									<h2 class="nav-menu__title">Супы</h2>
+								</a>
+							</li>
+							<li class="nav-menu__item">
+								<a href="#" class="nav-menu__link link-dishes">
+									<h2 class="nav-menu__title">Горячие блюда</h2>
+								</a>
+							</li>
+							<li class="nav-menu__item">
+								<a href="#" class="nav-menu__link link-salads">
+									<h2 class="nav-menu__title">Салаты</h2>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>

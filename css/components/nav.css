@@ -1,0 +1,14 @@
+.nav__list {
+	display: flex;
+	align-items: center;
+	column-gap: 25px;
+	padding-top: 0.9rem;
+	padding-bottom: 0.8rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.nav__link {
+	color: inherit;
+	text-decoration: none;
+}

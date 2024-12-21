@@ -1,0 +1,76 @@
+.menu {
+	display: flex;
+	flex-direction: column;
+	row-gap: 32px;
+	padding-block: var(--menu-padding-y);
+}
+
+.menu__title {
+	font-size: 4rem;
+	font-weight: 600;
+	line-height: 1.2;
+	color: rgba(28, 28, 28, 1);
+}
+
+.nav-menu__list {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(304px, 1fr));
+	grid-template-rows: minmax(304px, 1fr);
+	column-gap: 32px;
+}
+
+.nav-menu__link {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 1.6rem;
+	border-radius: var(--border-radius-16);
+	background-color: var(--nav-menu-color);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-decoration: none;
+}
+
+.link-pizza {
+	background-image: url('/images/menu/pizza.jpg');
+}
+
+.link-soups {
+	background-image: url('/images/menu/soups.jpg');
+}
+
+.link-dishes {
+	background-image: url('/images/menu/dishes.jpg');
+}
+
+.link-salads {
+	background-image: url('/images/menu/salads.jpg');
+}
+
+.nav-menu__link::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+	border-radius: var(--border-radius-16);
+	background-image: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 0) 50%,
+		rgba(3, 3, 3, 0.5) 100%
+	);
+}
+
+.nav-menu__title {
+	position: absolute;
+	bottom: 16px;
+	z-index: 4;
+	font-size: 2.4rem;
+	font-weight: 600;
+	line-height: 1.3;
+	color: var(--nav-menu-color);
+}

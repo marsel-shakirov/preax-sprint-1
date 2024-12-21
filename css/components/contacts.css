@@ -1,0 +1,15 @@
+.contacts {
+	line-height: 1.3;
+	text-align: end;
+}
+.contacts__tel {
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: inherit;
+	text-decoration: none;
+	word-spacing: 1px;
+}
+
+.contacts__descr {
+	font-size: 1.2rem;
+}

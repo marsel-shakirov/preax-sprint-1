@@ -1,0 +1,8 @@
+.page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-block: var(--header-padding-y);
+	height: 72px;
+	min-width: 1312px;
+}
