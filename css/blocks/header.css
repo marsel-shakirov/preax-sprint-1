@@ -1,8 +1,18 @@
 .page-header {
+	min-width: 1312px;
+	min-height: 128px;
+}
+
+.header__wrap {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding-block: var(--header-padding-y);
 	height: 72px;
-	min-width: 1312px;
+}
+
+.header__inner {
+	display: flex;
+	align-items: center;
+	column-gap: 64px;
 }

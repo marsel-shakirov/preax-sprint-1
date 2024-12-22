@@ -1,0 +1,10 @@
+.button {
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 1.33;
+	color: var(--main-color);
+	background-color: rgb(244, 244, 244);
+	border: none;
+	border-radius: 16px;
+	cursor: pointer;
+}

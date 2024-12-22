@@ -1,0 +1,18 @@
+.profile {
+	display: flex;
+	column-gap: 16px;
+	cursor: pointer;
+}
+.profile__block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 56px;
+	height: 48px;
+	border: 2px solid var(--main-color);
+	border-radius: 16px;
+}
+
+.profile__block--black {
+	background-color: var(--main-color);
+}

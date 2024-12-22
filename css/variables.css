@@ -8,9 +8,11 @@
 	--header-padding-y: 1.6rem;
 
 	--menu-padding-y: 3.2rem;
-	--nav-menu-color: rgba(255, 255, 255, 1);
+	--menu-content-color: rgba(255, 255, 255, 1);
 
 	--color-link: rgba(85, 85, 85, 1);
+
+	--main-color: rgba(28, 28, 28, 1);
 
 	--border-radius-16: 16px;
 }

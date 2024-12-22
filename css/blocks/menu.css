@@ -9,47 +9,125 @@
 	font-size: 4rem;
 	font-weight: 600;
 	line-height: 1.2;
-	color: rgba(28, 28, 28, 1);
+	color: var(--main-color);
 }
 
-.nav-menu__list {
+.menu-content__list {
 	display: grid;
 	grid-template-columns: repeat(4, minmax(304px, 1fr));
 	grid-template-rows: minmax(304px, 1fr);
 	column-gap: 32px;
 }
 
-.nav-menu__link {
+.menu-content__item {
+	display: flex;
+	flex-direction: column;
+	row-gap: 16px;
+}
+
+.menu-content__link {
 	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
-	padding: 1.6rem;
 	border-radius: var(--border-radius-16);
-	background-color: var(--nav-menu-color);
+	color: var(--main-color);
+	background-color: var(--menu-content-color);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-decoration: none;
 }
 
-.link-pizza {
-	background-image: url('/images/menu/pizza.jpg');
+.image__vegetarian,
+.image__seafood,
+.image__sharp {
+	width: 36px;
+	height: 36px;
+	padding: 10px;
+	border-radius: 8px;
 }
 
-.link-soups {
-	background-image: url('/images/menu/soups.jpg');
+.image__sharp {
+	background-color: rgba(252, 125, 4, 1);
 }
 
-.link-dishes {
-	background-image: url('/images/menu/dishes.jpg');
+.image__seafood {
+	background-color: rgba(0, 148, 228, 1);
 }
 
-.link-salads {
-	background-image: url('/images/menu/salads.jpg');
+.image__vegetarian {
+	background-color: rgba(29, 170, 15, 1);
 }
 
-.nav-menu__link::after {
+.menu-content__image {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	column-gap: 8px;
+	width: 304px;
+	height: 304px;
+	border-radius: var(--border-radius-16);
+	background-color: var(--menu-content-color);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-decoration: none;
+}
+
+.menu-content__image--p8 {
+	padding: 8px;
+}
+
+.pizza {
+	background-image: url('/images/menu/navigation/pizza.jpg');
+}
+
+.soups {
+	background-image: url('/images/menu/navigation/soups.jpg');
+}
+
+.dishes {
+	background-image: url('/images/menu/navigation/dishes.jpg');
+}
+
+.salads {
+	background-image: url('/images/menu/navigation/salads.jpg');
+}
+
+.сhinese-soup {
+	background-image: url('/images/menu/сhinese-soup.jpg');
+}
+
+.paella {
+	background-image: url('/images/menu/paella.jpg');
+}
+
+.boeuf-bourguignon {
+	background-image: url('/images/menu/boeuf-bourguignon.jpg');
+}
+
+.broken-cucumbers {
+	background-image: url('/images/menu/broken-cucumbers.jpg');
+}
+
+.pepperoni {
+	background-image: url('/images/menu/pepperoni.jpg');
+}
+
+.pear-gorgonzola {
+	background-image: url('/images/menu/pear-gorgonzola.jpg');
+}
+
+.pho-bo {
+	background-image: url('/images/menu/pho-bo.jpg');
+}
+
+.tom-yum {
+	background-image: url('/images/menu/tom-yum.jpg');
+}
+
+.link-overlay::after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -65,12 +143,35 @@
 	);
 }
 
-.nav-menu__title {
+.menu-content__title {
 	position: absolute;
 	bottom: 16px;
+	left: 16px;
 	z-index: 4;
 	font-size: 2.4rem;
 	font-weight: 600;
 	line-height: 1.3;
-	color: var(--nav-menu-color);
+	color: var(--menu-content-color);
+}
+
+.menu-content__caption {
+	margin-top: 1.6rem;
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 1.33;
+}
+
+.menu-content__desc {
+	display: -webkit-box;
+	height: 48px;
+	font-size: 1.6rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.menu-content__button {
+	width: 100%;
+	min-height: 56px;
 }
