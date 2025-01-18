@@ -1,13 +1,13 @@
-@import url(./css/libs/normalize.css);
+@import url(./styles/libs/normalize.css);
 
-@import url(./css/variables.css);
-@import url(./css/base.css);
+@import url(./styles/variables.css);
+@import url(./styles/base.css);
 
-@import url(./css/blocks/header.css);
-@import url(./css/blocks/menu.css);
+@import url(./styles/blocks/header.css);
+@import url(./styles/blocks/menu.css);
 
-@import url(./css/components/nav.css);
-@import url(./css/components/contacts.css);
-@import url(./css/components/promotion.css);
-@import url(./css/components/profile.css);
-@import url(./css/components/button.css);
+@import url(./styles/components/nav.css);
+@import url(./styles/components/contacts.css);
+@import url(./styles/components/promotion.css);
+@import url(./styles/components/profile.css);
+@import url(./styles/components/button.css);

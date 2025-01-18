@@ -10,22 +10,12 @@ body {
 	text-rendering: optimizeLegibility;
 	font-weight: 400;
 	font-style: normal;
-	background-image: linear-gradient(
-		to bottom,
-		var(--main-color) 48px,
-		rgb(249, 194, 1) 48px 128px
-	);
-	background-repeat: no-repeat;
-	background-size: auto 128px;
-	color: var(--color-link);
 }
 
 .container {
 	max-width: var(--container-width);
-	min-height: 100dvh;
 	margin-inline: auto;
 	padding-inline: var(--container-padding-x);
-	overflow-x: scroll;
 }
 
 .visually-hidden {
@@ -39,4 +29,8 @@ body {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
+}
+
+.overflow {
+	overflow-x: scroll;
 }
