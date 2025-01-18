@@ -15,7 +15,6 @@ body {
 		var(--main-color) 48px,
 		rgb(249, 194, 1) 48px 128px
 	);
-	/* background-image: linear-gradient(to right, #fedd2c, #f9c302); */
 	background-repeat: no-repeat;
 	background-size: auto 128px;
 	color: var(--color-link);

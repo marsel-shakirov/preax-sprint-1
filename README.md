@@ -1,4 +1,4 @@
 # RestoApp
 
-name - Marsel
+full name - Marsel Shakirov
 nickname - marsel-shakirov

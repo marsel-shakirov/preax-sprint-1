@@ -159,12 +159,14 @@
 	font-size: 1.8rem;
 	font-weight: 600;
 	line-height: 1.33;
+	margin-bottom: 0.4rem;
 }
 
 .menu-content__desc {
 	display: -webkit-box;
 	height: 48px;
 	font-size: 1.6rem;
+	color: rgba(114, 114, 114, 1);
 	overflow: hidden;
 	text-overflow: ellipsis;
 	-webkit-line-clamp: 2;
