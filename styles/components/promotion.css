@@ -15,7 +15,7 @@
 	font-size: 1.8rem;
 	font-weight: 600;
 	line-height: 1.33;
-	color: var(--menu-content-color);
+	color: var(--card-content-color);
 }
 
 .promotion__btn-close {
@@ -38,7 +38,7 @@
 	left: 4px;
 	width: 9px;
 	height: 1.5px;
-	background-color: var(--menu-content-color);
+	background-color: var(--card-content-color);
 	border-radius: 4px;
 }
 

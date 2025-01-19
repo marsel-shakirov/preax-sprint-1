@@ -8,3 +8,9 @@
 	border-radius: 16px;
 	cursor: pointer;
 }
+
+.button--events {
+	padding: 1.6rem;
+	border: 2px solid var(--main-color);
+	background-color: transparent;
+}
