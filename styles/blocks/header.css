@@ -1,19 +1,12 @@
-.page-header {
-	min-width: 1440px;
-	background-image: linear-gradient(to right, #fedd2c, #f9c201);
-	color: var(--color-link);
-}
-
 .header__wrap {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-block: var(--header-padding-y);
-	width: 1312px;
+	padding-block: var(--system-padding-medium);
 }
 
 .header__inner {
 	display: flex;
 	align-items: center;
-	column-gap: 64px;
+	column-gap: var(--system-gap);
 }

@@ -1,0 +1,31 @@
+.button-close {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	padding: initial;
+	color: var(--system-color-silver);
+	background-color: currentColor;
+	border: var(--system-borderWidth-xthin) solid currentColor;
+	border-radius: var(-system-borderRadius-circle);
+	cursor: pointer;
+}
+
+.button-close::before,
+.button-close::after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 4px;
+	width: 9px;
+	height: 1.5px;
+	background-color: var(--system-color-white);
+	border-radius: var(--system-borderRadius-xsmall);
+}
+
+.button-close::before {
+	transform: rotate(45deg);
+}
+
+.button-close::after {
+	transform: rotate(-45deg);
+}

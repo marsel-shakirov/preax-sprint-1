@@ -1,18 +1,20 @@
 .profile {
 	display: flex;
-	column-gap: 16px;
+	column-gap: var(--system-gap-small);
 	cursor: pointer;
 }
 .profile__block {
+	--backgroundColor: transparent;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 56px;
 	height: 48px;
-	border: 2px solid var(--main-color);
-	border-radius: 16px;
+	background-color: var(--backgroundColor);
+	border: var(--system-borderWidth-thin) solid var(--system-color-black);
+	border-radius: var(--system-borderRadius-normal);
 }
 
 .profile__block--black {
-	background-color: var(--main-color);
+	--backgroundColor: var(--system-color-black);
 }

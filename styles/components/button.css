@@ -1,16 +1,16 @@
 .button {
-	font-size: 1.8rem;
-	font-weight: 600;
-	line-height: 1.33;
+	font-size: var(--system-fontSize-normal);
+	font-weight: var(--system-fontWeight-semiBold);
+	line-height: var(--system-lineHeight-normal);
 	color: var(--main-color);
 	background-color: rgb(244, 244, 244);
 	border: none;
-	border-radius: 16px;
+	border-radius: var(--system-borderRadius-normal);
 	cursor: pointer;
 }
 
 .button--events {
-	padding: 1.6rem;
-	border: 2px solid var(--main-color);
+	padding: var(--system-padding-medium);
+	border: var(--system-borderWidth-thin) solid var(--system-color-black);
 	background-color: transparent;
 }

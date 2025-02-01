@@ -1,18 +1,64 @@
 :root {
-	--font-family-base: 'Inter';
-	--main-font-size: 62.5%;
+	--system-fontFamily-base: 'Inter';
+	--system-content-width: 1440px;
 
-	--container-width: 1440px;
-	--container-padding-x: 6.4rem;
+	--system-color-black: rgb(28, 28, 28);
+	--system-color-silver: rgb(57, 57, 57);
+	--system-color-white: rgb(255, 255, 255);
+	--system-color-darkGrey: rgb(85, 85, 85);
+	--system-color-brightYellow: rgb(254, 221, 44);
+	--system-color-dimYellow: rgb(249, 194, 1);
+	--system-color-dark: rgba(3, 3, 3, 0.5);
+	--system-color-gray: rgb(114, 114, 114);
+	--system-color-transBlack: rgba(0, 0, 0, 0.6);
 
-	--header-padding-y: 1.6rem;
+	--system-fontSize-base: 62.5%;
+	--system-fontSize-xlarge: 4rem;
+	--system-fontSize-large: 3.2rem;
+	--system-fontSize-medium: 2.4rem;
+	--system-fontSize-normal: 1.8rem;
+	--system-fontSize-small: 1.6rem;
+	--system-fontSize-xsmall: 1.4rem;
 
-	--card-padding-y: 3.2rem;
-	--card-content-color: rgba(255, 255, 255, 1);
+	--system-fontWeight-semiBold: 600;
+	--system-fontWeight-regular: 400;
 
-	--color-link: rgba(85, 85, 85, 1);
+	--system-wordSpacing-primary: 1px;
 
-	--main-color: rgba(28, 28, 28, 1);
+	--system-borderRadius-circle: 50%;
+	--system-borderRadius-normal: 16px;
+	--system-borderRadius-small: 8px;
+	--system-borderRadius-xsmall: 4px;
 
-	--border-radius-16: 16px;
+	--system-borderWidth-thin: 2px;
+	--system-borderWidth-xthin: 1px;
+
+	--system-padding-xlarge: 6.4rem;
+	--system-padding-large: 3.2rem;
+	--system-padding-medium: 1.6rem;
+	--system-padding-normal: 1.5rem;
+	--system-padding-small: 1.2rem;
+	--system-padding-xsmall: 1rem;
+	--system-padding-xxsmall: 0.8rem;
+
+	--system-lineHeight-normal: 1.33;
+	--system-lineHeight-small: 1.25;
+	--system-lineHeight-xsmall: 1.22;
+
+	--system-gap: 64px;
+	--system-gap-medium: 32px;
+	--system-gap-normal: 25px;
+	--system-gap-small: 16px;
+	--system-gap-xsmall: 8px;
+
+	--system-gradient-header: linear-gradient(
+		to right,
+		var(--system-color-brightYellow),
+		var(--system-color-dimYellow)
+	);
+	--system-gradient-card: linear-gradient(
+		to bottom,
+		transparent 50%,
+		var(--system-color-dark) 100%
+	);
 }

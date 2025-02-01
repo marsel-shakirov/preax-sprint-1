@@ -1,0 +1,71 @@
+.pizza {
+	background-image: url('../../images/menu/navigation/pizza.jpg');
+}
+
+.soups {
+	background-image: url('../../images/menu/navigation/soups.jpg');
+}
+
+.dishes {
+	background-image: url('../../images/menu/navigation/dishes.jpg');
+}
+
+.salads {
+	background-image: url('../../images/menu/navigation/salads.jpg');
+}
+
+.сhinese-soup {
+	background-image: url('../../images/menu/сhinese-soup.jpg');
+}
+
+.paella {
+	background-image: url('../../images/menu/paella.jpg');
+}
+
+.boeuf-bourguignon {
+	background-image: url('../../images/menu/boeuf-bourguignon.jpg');
+}
+
+.broken-cucumbers {
+	background-image: url('../../images/menu/broken-cucumbers.jpg');
+}
+
+.pepperoni {
+	background-image: url('../../images/menu/pepperoni.jpg');
+}
+
+.pear-gorgonzola {
+	background-image: url('../../images/menu/pear-gorgonzola.jpg');
+}
+
+.pho-bo {
+	background-image: url('../../images/menu/pho-bo.jpg');
+}
+
+.tom-yum {
+	background-image: url('../../images/menu/tom-yum.jpg');
+}
+
+.promotion-platina {
+	background-image: url('../../images/promotion/promotion-platina.jpg');
+}
+
+.promotion-registration {
+	background-image: url('../../images/promotion/promotion-registration.jpg');
+}
+
+.events-stand-up {
+	background-image: url('../../images/events/events-stand-up.jpg');
+}
+
+.events-birthday-gastroshop {
+	background-image: url('../../images/events/events-birthday-gastroshop.jpg');
+}
+
+.pizza-gastroshop {
+	background-image: url('../../images/caffe/pizza-gastroshop.jpg');
+}
+
+.caffe-gastroshop {
+	background-image: url('../../images/caffe/caffe-gastroshop.jpg');
+}

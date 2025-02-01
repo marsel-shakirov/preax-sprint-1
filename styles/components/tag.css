@@ -1,0 +1,24 @@
+.tag {
+	display: inline-block;
+	padding: var(--system-padding-xxsmall);
+	height: 36px;
+	font-size: var(--system-fontSize-xsmall);
+	font-weight: var(--system-fontWeight-semiBold);
+	line-height: 1.4;
+	background-color: var(--system-color-transBlack);
+	border-radius: var(--system-borderRadius-small);
+}
+
+.tag--yellow {
+	color: var(--system-color-black);
+	background-color: var(--system-color-brightYellow);
+}
+
+.tag--grey {
+	color: var(--system-color-white);
+	background-color: var(--system-color-gray);
+}
+
+.tag-status {
+	margin-left: auto;
+}

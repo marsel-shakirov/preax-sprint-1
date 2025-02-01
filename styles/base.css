@@ -1,21 +1,35 @@
 html {
-	font-size: var(--main-font-size);
+	font-size: var(--system-fontSize-base);
 }
 
 body {
-	font-family: var(--font-family-base);
+	font-family: var(--system-fontFamily-base);
 	font-optical-sizing: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
-	font-weight: 400;
+	font-size: var(--system-fontSize-small);
+	font-weight: var(--system-fontWeight-regular);
 	font-style: normal;
 }
 
+.page-header {
+	min-width: var(--system-content-width);
+	background-image: var(--system-gradient-header);
+	color: var(--system-color-darkGrey);
+}
+
+.page-main {
+	display: flex;
+	flex-direction: column;
+	row-gap: var(--system-gap-medium);
+	padding-bottom: var(--system-padding-xlarge);
+}
+
 .container {
-	max-width: var(--container-width);
+	max-width: var(--system-content-width);
 	margin-inline: auto;
-	padding-inline: var(--container-padding-x);
+	padding-inline: var(--system-padding-xlarge);
 }
 
 .visually-hidden {
@@ -29,8 +43,4 @@ body {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
-}
-
-.overflow {
-	overflow-x: scroll;
 }

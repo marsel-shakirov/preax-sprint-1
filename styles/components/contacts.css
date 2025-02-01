@@ -1,15 +1,15 @@
 .contacts {
-	line-height: 1.3;
+	line-height: var(--system-lineHeight-normal);
 	text-align: end;
 }
 .contacts__tel {
-	font-size: 1.8rem;
-	font-weight: 600;
+	font-size: var(--system-fontSize-normal);
+	font-weight: var(--system-fontWeight-semiBold);
 	color: inherit;
 	text-decoration: none;
-	word-spacing: 1px;
+	word-spacing: var(--system-wordSpacing-primary);
 }
 
 .contacts__descr {
-	font-size: 1.2rem;
+	font-size: var(--system-padding-small);
 }
