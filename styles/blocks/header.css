@@ -2,11 +2,11 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-block: var(--system-padding-medium);
+	padding-block: var(--padding-lg);
 }
 
 .header__inner {
 	display: flex;
 	align-items: center;
-	column-gap: var(--system-gap);
+	column-gap: var(--gap);
 }

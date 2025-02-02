@@ -2,20 +2,20 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	column-gap: var(--system-padding-normal);
-	background-color: var(--system-color-black);
-	min-width: var(--system-content-width);
+	column-gap: var(--padding-md);
+	background-color: var(--color-black);
+	min-width: var(--content-width);
 }
 
 .promotion-desc {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-block: var(--system-padding-small);
-	font-size: var(--system-fontSize-normal);
-	font-weight: var(--system-fontWeight-semiBold);
-	line-height: var(--system-lineHeight-normal);
-	color: var(--system-color-white);
+	padding-block: var(--padding-sm);
+	font-size: var(--font-size-sm);
+	font-weight: var(--font-weight-semiBold);
+	line-height: var(--line-height-md);
+	color: var(--color-white);
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;

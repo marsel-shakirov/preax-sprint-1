@@ -18,7 +18,9 @@
 
 	<body>
 		<aside class="promotion">
-			<strong class="promotion-desc">Бесплатная доставка от 1 000 ₽</strong>
+			<strong class="promotion-desc"
+				>Бесплатная доставка от 1&nbsp;000 ₽</strong
+			>
 			<button
 				type="button"
 				aria-label="Закрыть вкладку акций"
@@ -107,30 +109,34 @@
 				<section class="section-nav card">
 					<h2 class="card__title">Меню</h2>
 
-					<nav class="card-content card-nav">
+					<nav class="card-content">
 						<ul class="card-content__list">
 							<li class="card-content__item">
-								<a href="#" class="card-content__link link-overlay">
-									<div class="card-content__image pizza"></div>
-									<h3 class="card-content__title">Пицца</h3>
+								<a href="#" class="card-content__link">
+									<div class="card-content__wrapper pizza overlay">
+										<h3 class="card-content__title">Пицца</h3>
+									</div>
 								</a>
 							</li>
 							<li class="card-content__item">
-								<a href="#" class="card-content__link link-overlay">
-									<div class="card-content__image soups"></div>
-									<h3 class="card-content__title">Супы</h3>
+								<a href="#" class="card-content__link">
+									<div class="card-content__wrapper soups overlay">
+										<h3 class="card-content__title">Супы</h3>
+									</div>
 								</a>
 							</li>
 							<li class="card-content__item">
-								<a href="#" class="card-content__link link-overlay">
-									<div class="card-content__image dishes"></div>
-									<h3 class="card-content__title">Горячие блюда</h3>
+								<a href="#" class="card-content__link">
+									<div class="card-content__wrapper dishes overlay">
+										<h3 class="card-content__title">Горячие блюда</h3>
+									</div>
 								</a>
 							</li>
 							<li class="card-content__item">
-								<a href="#" class="card-content__link link-overlay">
-									<div class="card-content__image salads"></div>
-									<h3 class="card-content__title">Салаты</h3>
+								<a href="#" class="card-content__link">
+									<div class="card-content__wrapper salads overlay">
+										<h3 class="card-content__title">Салаты</h3>
+									</div>
 								</a>
 							</li>
 						</ul>
@@ -145,15 +151,17 @@
 							<li class="card-content__item">
 								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image card-content__image--badge image сhinese-soup"
+										class="card-content__wrapper card-content__wrapper--badge сhinese-soup"
 									>
-										<img
-											class="image__vegetarian"
-											src="./images/badge/vegetarian.svg"
-											width="36"
-											height="36"
-											alt="Вегетарианское блюдо"
-										/>
+										<div class="image-wrapper image">
+											<img
+												class="image__item image-vegetarian"
+												src="./images/badge/vegetarian.svg"
+												width="36"
+												height="36"
+												alt="Вегетарианское блюдо"
+											/>
+										</div>
 									</div>
 									<h3 class="card-content__caption">Китайский яичный суп</h3>
 									<p class="card-content__desc">
@@ -168,20 +176,22 @@
 							<li class="card-content__item">
 								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image card-content__image--badge image paella"
+										class="card-content__wrapper card-content__wrapper--badge paella"
 									>
-										<img
-											class="image__vegetarian"
-											src="./images/badge/vegetarian.svg"
-											width="36"
-											height="36"
-											alt="Вегетарианское блюдо"
-										/>
+										<div class="image-wrapper image">
+											<img
+												class="image__item image-vegetarian"
+												src="./images/badge/vegetarian.svg"
+												width="36"
+												height="36"
+												alt="Вегетарианское блюдо"
+											/>
+										</div>
 									</div>
 									<h3 class="card-content__caption">Паэлья</h3>
 									<p class="card-content__desc">
-										Традиционное испанское блюдо — рис, колбаски чоризо, куриное
-										бедро, кальмар, кукуруза, горошек, специи
+										Традиционное испанское блюдо&nbsp;&mdash; рис, колбаски
+										чоризо, куриное бедро, кальмар, кукуруза, горошек, специи.
 									</p>
 								</a>
 								<button type="button" class="card-content__button button">
@@ -192,12 +202,12 @@
 							<li class="card-content__item">
 								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image card-content__image--badge boeuf-bourguignon"
+										class="card-content__wrapper card-content__wrapper--badge boeuf-bourguignon"
 									></div>
 									<h3 class="card-content__caption">Биф Бургеньон</h3>
 									<p class="card-content__desc">
-										Блюдо французской кухни&nbsp; — тушёные кусочки говядины с
-										картофелем и болгарским перцем
+										Блюдо французской кухни&nbsp;&mdash; тушёные кусочки
+										говядины с картофелем и болгарским перцем
 									</p>
 								</a>
 								<button type="button" class="card-content__button button">
@@ -208,15 +218,17 @@
 							<li class="card-content__item">
 								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image card-content__image--badge image broken-cucumbers"
+										class="card-content__wrapper card-content__wrapper--badge broken-cucumbers"
 									>
-										<img
-											class="image__vegetarian"
-											src="./images/badge/vegetarian.svg"
-											width="36"
-											height="36"
-											alt="Вегетарианское блюдо"
-										/>
+										<div class="image-wrapper image">
+											<img
+												class="image__item image-vegetarian"
+												src="./images/badge/vegetarian.svg"
+												width="36"
+												height="36"
+												alt="Вегетарианское блюдо"
+											/>
+										</div>
 									</div>
 									<h3 class="card-content__caption">Битые огурцы</h3>
 									<p class="card-content__desc">
@@ -240,12 +252,12 @@
 							<li class="card-content__item">
 								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image card-content__image--badge pepperoni"
+										class="card-content__wrapper card-content__wrapper--badge pepperoni"
 									></div>
 									<h3 class="card-content__caption">Пепперони</h3>
 									<p class="card-content__desc">
-										Просто и вкусно - томатная основа маринара, колбаски
-										пепперони и сыр моцарелла
+										Просто и вкусно&nbsp;&ndash; томатная основа маринара,
+										колбаски пепперони и сыр моцарелла
 									</p>
 								</a>
 								<button type="button" class="card-content__button button">
@@ -256,15 +268,17 @@
 							<li class="card-content__item">
 								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image card-content__image--badge image pear-gorgonzola"
+										class="card-content__wrapper card-content__wrapper--badge pear-gorgonzola"
 									>
-										<img
-											class="image__vegetarian"
-											src="./images/badge/vegetarian.svg"
-											width="36"
-											height="36"
-											alt="Вегетарианское блюдо"
-										/>
+										<div class="image-wrapper image">
+											<img
+												class="image__item image-vegetarian"
+												src="./images/badge/vegetarian.svg"
+												width="36"
+												height="36"
+												alt="Вегетарианское блюдо"
+											/>
+										</div>
 									</div>
 									<h3 class="card-content__caption">Груша Горгонзола</h3>
 									<p class="card-content__desc">
@@ -280,7 +294,7 @@
 							<li class="card-content__item">
 								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image card-content__image--badge pho-bo"
+										class="card-content__wrapper card-content__wrapper--badge pho-bo"
 									></div>
 									<h3 class="card-content__caption">Фо Бо</h3>
 									<p class="card-content__desc">
@@ -298,22 +312,24 @@
 							<li class="card-content__item">
 								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image card-content__image--badge image tom-yum"
+										class="card-content__wrapper card-content__wrapper--badge image tom-yum"
 									>
-										<img
-											class="image__sharp"
-											src="./images/badge/sharp.svg"
-											width="36"
-											height="36"
-											alt="Острое блюдо"
-										/>
-										<img
-											class="image__seafood"
-											src="./images/badge/seafood.svg"
-											width="36"
-											height="36"
-											alt="Блюдо содержит морепродукты"
-										/>
+										<div class="image-wrapper image">
+											<img
+												class="image__item image-sharp"
+												src="./images/badge/sharp.svg"
+												width="36"
+												height="36"
+												alt="Острое блюдо"
+											/>
+											<img
+												class="image__item image-seafood"
+												src="./images/badge/seafood.svg"
+												width="36"
+												height="36"
+												alt="Блюдо содержит морепродукты"
+											/>
+										</div>
 									</div>
 									<h3 class="card-content__caption">Том Ям с морепродуктами</h3>
 									<p class="card-content__desc">
@@ -337,29 +353,33 @@
 					<div class="card-content">
 						<ul class="card-content__list grid-col-640">
 							<li class="card-content__item">
-								<a href="#" class="card-content__link link-overlay">
+								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image image-preview promotion-platina"
+										class="card-content__wrapper preview promotion-platina overlay"
 									>
-										<span class="tag">Скидка 10%</span>
+										<div class="image-wrapper image">
+											<span class="tag">Скидка 10%</span>
+										</div>
+										<h3 class="card-content__title title-promo">
+											Статус &laquo;Platina&raquo;&nbsp; привилегированным
+											клиентам
+										</h3>
 									</div>
-									<h3 class="card-content__title card-content__title--promo">
-										Статус &laquo;Platina&raquo;&nbsp; привилегированным
-										клиентам
-									</h3>
 								</a>
 							</li>
 
 							<li class="card-content__item">
-								<a href="#" class="card-content__link link-overlay">
+								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image image-preview promotion-registration"
+										class="card-content__wrapper preview promotion-registration overlay"
 									>
-										<span class="tag">Скидка 5%</span>
+										<div class="image-wrapper image">
+											<span class="tag">Скидка 5%</span>
+										</div>
+										<h3 class="card-content__title title-promo">
+											Скидка на все покупки при регистрации
+										</h3>
 									</div>
-									<h3 class="card-content__title card-content__title--promo">
-										Скидка на все покупки при регистрации
-									</h3>
 								</a>
 							</li>
 						</ul>
@@ -372,36 +392,40 @@
 					<div class="card-content">
 						<ul class="card-content__list grid-col-640">
 							<li class="card-content__item">
-								<a href="#" class="card-content__link link-overlay">
+								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image image-preview events-stand-up"
+										class="card-content__wrapper preview events-stand-up overlay"
 									>
-										<span class="tag">27&nbsp;января</span>
-										<span class="tag">В 21:00</span>
-										<span class="tag tag--yellow tag-status">Скоро</span>
+										<div class="image-wrapper image">
+											<span class="tag">27&nbsp;января</span>
+											<span class="tag">В 21:00</span>
+											<span class="tag tag--yellow tag-status">Скоро</span>
+										</div>
+										<h3 class="card-content__title title-promo">
+											Первый в этом году Stand-Up
+										</h3>
 									</div>
-									<h3 class="card-content__title card-content__title--promo">
-										Первый в этом году Stand-Up
-									</h3>
 								</a>
 							</li>
 
 							<li class="card-content__item">
-								<a href="#" class="card-content__link link-overlay">
+								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image image-preview events-birthday-gastroshop"
+										class="card-content__wrapper preview events-birthday-gastroshop overlay"
 									>
-										<span class="tag"
-											><time datetime="2025-01-21T00:00:00Z"
-												>21 января</time
-											></span
-										>
-										<span class="tag">Скидка 20%</span>
-										<span class="tag tag--grey tag-status">Завершено</span>
+										<div class="image-wrapper image">
+											<span class="tag"
+												><time datetime="2025-01-21T00:00:00Z"
+													>21 января</time
+												></span
+											>
+											<span class="tag">Скидка 20%</span>
+											<span class="tag tag--grey tag-status">Завершено</span>
+										</div>
+										<h3 class="card-content__title title-promo">
+											День рождения в «Гастроцех»
+										</h3>
 									</div>
-									<h3 class="card-content__title card-content__title--promo">
-										День рождения в «Гастроцех»
-									</h3>
 								</a>
 							</li>
 						</ul>
@@ -415,42 +439,46 @@
 					<div class="card-content">
 						<ul class="card-content__list grid-col-640">
 							<li class="card-content__item">
-								<a href="#" class="card-content__link link-overlay">
+								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image image-preview caffe-gastroshop"
+										class="card-content__wrapper preview image caffe-gastroshop overlay"
 									>
-										<span class="tag"
-											>Открыт еще 1&nbsp;ч&nbsp;20&nbsp;мин</span
-										>
-										<span class="tag"
-											>с <time datetime="10:00">10:00</time> до
-											<time datetime="23:00">23:00</time></span
-										>
-										<span class="tag tag--yellow tag-status">Открыт</span>
+										<div class="image-wrapper image">
+											<span class="tag"
+												>Открыт еще 1&nbsp;ч&nbsp;20&nbsp;мин</span
+											>
+											<span class="tag"
+												>с <time datetime="10:00">10:00</time> до
+												<time datetime="23:00">23:00</time></span
+											>
+											<span class="tag tag--yellow tag-status">Открыт</span>
+										</div>
+										<h3 class="card-content__title title-promo">
+											Фудкорт&nbsp;&mdash; Кафе &laquo;Гастроцех&raquo;
+										</h3>
 									</div>
-									<h3 class="card-content__title card-content__title--promo">
-										Фудкорт&nbsp;&mdash; Кафе &laquo;Гастроцех&raquo;
-									</h3>
 								</a>
 							</li>
 
 							<li class="card-content__item">
-								<a href="#" class="card-content__link link-overlay">
+								<a href="#" class="card-content__link">
 									<div
-										class="card-content__image image-preview pizza-gastroshop"
+										class="card-content__wrapper preview pizza-gastroshop overlay"
 									>
-										<span class="tag"
-											>Открыт еще 1&nbsp;ч&nbsp;20&nbsp;мин</span
-										>
-										<span class="tag"
-											>с <time datetime="10:00">10:00</time> до
-											<time datetime="23:00">23:00</time></span
-										>
-										<span class="tag tag--yellow tag-status">Открыт</span>
+										<div class="image-wrapper image">
+											<span class="tag"
+												>Открыт еще 1&nbsp;ч&nbsp;20&nbsp;мин</span
+											>
+											<span class="tag"
+												>с <time datetime="10:00">10:00</time> до
+												<time datetime="23:00">23:00</time></span
+											>
+											<span class="tag tag--yellow tag-status">Открыт</span>
+										</div>
+										<h3 class="card-content__title title-promo">
+											&laquo;Гастроцех&raquo; Пицца
+										</h3>
 									</div>
-									<h3 class="card-content__title card-content__title--promo">
-										&laquo;Гастроцех&raquo; Пицца
-									</h3>
 								</a>
 							</li>
 						</ul>

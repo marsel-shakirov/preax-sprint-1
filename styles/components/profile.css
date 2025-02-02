@@ -1,6 +1,6 @@
 .profile {
 	display: flex;
-	column-gap: var(--system-gap-small);
+	column-gap: var(--gap-sm);
 	cursor: pointer;
 }
 .profile__block {
@@ -11,10 +11,10 @@
 	width: 56px;
 	height: 48px;
 	background-color: var(--backgroundColor);
-	border: var(--system-borderWidth-thin) solid var(--system-color-black);
-	border-radius: var(--system-borderRadius-normal);
+	border: var(--border-width-thin) solid var(--color-black);
+	border-radius: var(--border-radius-md);
 }
 
 .profile__block--black {
-	--backgroundColor: var(--system-color-black);
+	--backgroundColor: var(--color-black);
 }

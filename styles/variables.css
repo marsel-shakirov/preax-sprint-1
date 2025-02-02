@@ -1,64 +1,65 @@
 :root {
-	--system-fontFamily-base: 'Inter';
-	--system-content-width: 1440px;
+	--font-family-base: 'Inter';
+	--content-width: 1440px;
 
-	--system-color-black: rgb(28, 28, 28);
-	--system-color-silver: rgb(57, 57, 57);
-	--system-color-white: rgb(255, 255, 255);
-	--system-color-darkGrey: rgb(85, 85, 85);
-	--system-color-brightYellow: rgb(254, 221, 44);
-	--system-color-dimYellow: rgb(249, 194, 1);
-	--system-color-dark: rgba(3, 3, 3, 0.5);
-	--system-color-gray: rgb(114, 114, 114);
-	--system-color-transBlack: rgba(0, 0, 0, 0.6);
+	--color-black: rgb(28, 28, 28);
+	--color-silver: rgb(57, 57, 57);
+	--color-white: rgb(255, 255, 255);
+	--color-darkGrey: rgb(85, 85, 85);
+	--color-brightYellow: rgb(254, 221, 44);
+	--color-dimYellow: rgb(249, 194, 1);
+	--color-dark: rgba(3, 3, 3, 0.5);
+	--color-gray: rgb(114, 114, 114);
+	--color-transBlack: rgba(0, 0, 0, 0.6);
+	--color-greyWhite: rgb(244, 244, 244);
 
-	--system-fontSize-base: 62.5%;
-	--system-fontSize-xlarge: 4rem;
-	--system-fontSize-large: 3.2rem;
-	--system-fontSize-medium: 2.4rem;
-	--system-fontSize-normal: 1.8rem;
-	--system-fontSize-small: 1.6rem;
-	--system-fontSize-xsmall: 1.4rem;
+	--font-size-base: 62.5%;
+	--font-size-xlg: 4rem;
+	--font-size-lg: 3.2rem;
+	--font-size-md: 2.4rem;
+	--font-size-sm: 1.8rem;
+	--font-size-xsm: 1.6rem;
+	--font-size-xxsm: 1.4rem;
 
-	--system-fontWeight-semiBold: 600;
-	--system-fontWeight-regular: 400;
+	--font-weight-semiBold: 600;
+	--font-weight-regular: 400;
 
-	--system-wordSpacing-primary: 1px;
+	--word-spacing-primary: 1px;
 
-	--system-borderRadius-circle: 50%;
-	--system-borderRadius-normal: 16px;
-	--system-borderRadius-small: 8px;
-	--system-borderRadius-xsmall: 4px;
+	--border-radius-circle: 50%;
+	--border-radius-md: 16px;
+	--border-radius-sm: 8px;
+	--border-radius-xsm: 4px;
 
-	--system-borderWidth-thin: 2px;
-	--system-borderWidth-xthin: 1px;
+	--border-width-thin: 2px;
+	--border-width-xthin: 1px;
 
-	--system-padding-xlarge: 6.4rem;
-	--system-padding-large: 3.2rem;
-	--system-padding-medium: 1.6rem;
-	--system-padding-normal: 1.5rem;
-	--system-padding-small: 1.2rem;
-	--system-padding-xsmall: 1rem;
-	--system-padding-xxsmall: 0.8rem;
+	--padding-xxlg: 6.4rem;
+	--padding-xlg: 3.2rem;
+	--padding-lg: 1.6rem;
+	--padding-md: 1.5rem;
+	--padding-sm: 1.2rem;
+	--padding-xsm: 1rem;
+	--padding-xxsm: 0.8rem;
 
-	--system-lineHeight-normal: 1.33;
-	--system-lineHeight-small: 1.25;
-	--system-lineHeight-xsmall: 1.22;
+	--line-height-md: 1.33;
+	--line-height-sm: 1.25;
+	--line-height-xsm: 1.22;
 
-	--system-gap: 64px;
-	--system-gap-medium: 32px;
-	--system-gap-normal: 25px;
-	--system-gap-small: 16px;
-	--system-gap-xsmall: 8px;
+	--gap: 64px;
+	--gap-lg: 32px;
+	--gap-md: 25px;
+	--gap-sm: 16px;
+	--gap-xsm: 8px;
 
-	--system-gradient-header: linear-gradient(
+	--gradient-header: linear-gradient(
 		to right,
-		var(--system-color-brightYellow),
-		var(--system-color-dimYellow)
+		var(--color-brightYellow),
+		var(--color-dimYellow)
 	);
-	--system-gradient-card: linear-gradient(
+	--gradient-card: linear-gradient(
 		to bottom,
 		transparent 50%,
-		var(--system-color-dark) 100%
+		var(--color-dark) 100%
 	);
 }

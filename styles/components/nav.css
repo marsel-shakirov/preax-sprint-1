@@ -1,9 +1,9 @@
 .nav__list {
 	display: flex;
 	align-items: center;
-	column-gap: var(--system-gap-normal);
-	padding-block: var(--system-padding-xxsmall);
-	font-weight: var(--system-fontWeight-semiBold);
+	column-gap: var(--gap-md);
+	padding-block: var(--padding-xxsm);
+	font-weight: var(--font-weight-semiBold);
 }
 
 .nav__link {

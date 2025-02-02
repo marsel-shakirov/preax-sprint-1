@@ -1,16 +1,16 @@
 .button {
-	font-size: var(--system-fontSize-normal);
-	font-weight: var(--system-fontWeight-semiBold);
-	line-height: var(--system-lineHeight-normal);
-	color: var(--main-color);
-	background-color: rgb(244, 244, 244);
+	font-size: var(--font-size-sm);
+	font-weight: var(--font-weight-semiBold);
+	line-height: var(--line-height-md);
+	color: var(--color-black);
+	background-color: var(--color-greyWhite);
 	border: none;
-	border-radius: var(--system-borderRadius-normal);
+	border-radius: var(--border-radius-md);
 	cursor: pointer;
 }
 
 .button--events {
-	padding: var(--system-padding-medium);
-	border: var(--system-borderWidth-thin) solid var(--system-color-black);
+	padding: var(--padding-lg);
+	border: var(--border-width-thin) solid var(--color-black);
 	background-color: transparent;
 }

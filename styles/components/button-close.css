@@ -3,10 +3,10 @@
 	width: 20px;
 	height: 20px;
 	padding: initial;
-	color: var(--system-color-silver);
+	color: var(--color-silver);
 	background-color: currentColor;
-	border: var(--system-borderWidth-xthin) solid currentColor;
-	border-radius: var(-system-borderRadius-circle);
+	border: var(--border-width-xthin) solid currentColor;
+	border-radius: var(--border-radius-circle);
 	cursor: pointer;
 }
 
@@ -18,8 +18,8 @@
 	left: 4px;
 	width: 9px;
 	height: 1.5px;
-	background-color: var(--system-color-white);
-	border-radius: var(--system-borderRadius-xsmall);
+	background-color: var(--color-white);
+	border-radius: var(--border-radius-xsm);
 }
 
 .button-close::before {

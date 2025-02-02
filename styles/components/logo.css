@@ -1,4 +1,6 @@
 .logo__icon {
 	display: block;
+	object-fit: contain;
+	object-position: center;
 	width: 100%;
 }

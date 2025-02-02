@@ -1,22 +1,22 @@
 .tag {
 	display: inline-block;
-	padding: var(--system-padding-xxsmall);
+	padding: var(--padding-xxsm);
 	height: 36px;
-	font-size: var(--system-fontSize-xsmall);
-	font-weight: var(--system-fontWeight-semiBold);
+	font-size: var(--font-size-xxsm);
+	font-weight: var(--font-weight-semiBold);
 	line-height: 1.4;
-	background-color: var(--system-color-transBlack);
-	border-radius: var(--system-borderRadius-small);
+	background-color: var(--color-transBlack);
+	border-radius: var(--border-radius-sm);
 }
 
 .tag--yellow {
-	color: var(--system-color-black);
-	background-color: var(--system-color-brightYellow);
+	color: var(--color-black);
+	background-color: var(--color-brightYellow);
 }
 
 .tag--grey {
-	color: var(--system-color-white);
-	background-color: var(--system-color-gray);
+	color: var(--color-white);
+	background-color: var(--color-gray);
 }
 
 .tag-status {
