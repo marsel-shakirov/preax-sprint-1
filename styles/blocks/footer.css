@@ -1,0 +1,24 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	row-gap: var(--gap-lg);
+	padding-block: var(--padding-xlg);
+}
+
+.footer__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__line {
+	display: block;
+	width: 100%;
+	border: none;
+	margin: 0;
+	border-bottom: var(--border-width-xthin) solid var(--color-silver);
+}
+
+.footer__logo {
+	min-width: 284px;
+}

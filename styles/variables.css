@@ -12,6 +12,7 @@
 	--color-gray: rgb(114, 114, 114);
 	--color-transBlack: rgba(0, 0, 0, 0.6);
 	--color-greyWhite: rgb(244, 244, 244);
+	--color-grayContrast: rgb(166, 166, 166);
 
 	--font-size-base: 62.5%;
 	--font-size-xlg: 4rem;
@@ -20,6 +21,7 @@
 	--font-size-sm: 1.8rem;
 	--font-size-xsm: 1.6rem;
 	--font-size-xxsm: 1.4rem;
+	--font-size-xs: 1.2rem;
 
 	--font-weight-semiBold: 600;
 	--font-weight-regular: 400;
@@ -62,4 +64,6 @@
 		transparent 50%,
 		var(--color-dark) 100%
 	);
+
+	--animate-duration: 0.2s;
 }

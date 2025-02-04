@@ -1,6 +1,10 @@
+.logo {
+	color: var(--color-black);
+}
 .logo__icon {
 	display: block;
-	object-fit: contain;
-	object-position: center;
-	width: 100%;
+}
+
+.logo__icon--white {
+	color: var(--color-white);
 }

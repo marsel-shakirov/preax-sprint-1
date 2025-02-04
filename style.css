@@ -2,9 +2,12 @@
 
 @import url(./styles/variables.css);
 @import url(./styles/base.css);
+
 @import url(./styles/blocks/header.css);
 @import url(./styles/blocks/card.css);
+@import url(./styles/blocks/footer.css);
 
+@import url(./styles/components/logo.css);
 @import url(./styles/components/nav.css);
 @import url(./styles/components/promotion.css);
 @import url(./styles/components/contacts.css);
@@ -12,5 +15,12 @@
 @import url(./styles/components/button.css);
 @import url(./styles/components/button-close.css);
 @import url(./styles/components/tag.css);
+@import url(./styles/components/socials.css);
+@import url(./styles/components/app-store.css);
+@import url(./styles/components/policy.css);
+@import url(./styles/components/payment-card.css);
+@import url(./styles/components/privacy.css);
+@import url(./styles/components/preax.css);
 
+@import url(./styles/utils.css);
 @import url(./styles/background-image.css);

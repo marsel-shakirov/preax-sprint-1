@@ -1,0 +1,21 @@
+.preax {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: var(--font-size-xxsm);
+	color: var(--color-grayContrast);
+	line-height: 1.42;
+}
+
+.preax__link {
+	color: inherit;
+	text-decoration-line: none;
+	border-bottom: 1px solid currentColor;
+	line-height: 1.3;
+}
+
+@media (any-hover: hover) {
+	.preax__link:hover {
+		color: var(--color-greyWhite);
+	}
+}

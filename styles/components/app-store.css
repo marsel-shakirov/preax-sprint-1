@@ -1,0 +1,16 @@
+.app-store__list {
+	display: flex;
+	column-gap: var(--gap-xsm);
+}
+
+.app-store__link {
+	width: 138px;
+	height: 40px;
+	color: var(--color-grayContrast);
+}
+
+@media (any-hover: hover) {
+	.app-store__link:hover {
+		color: var(--color-greyWhite);
+	}
+}

@@ -1,0 +1,10 @@
+.privacy__link {
+	color: inherit;
+	text-decoration: none;
+}
+
+@media (any-hover: hover) {
+	.privacy__link:hover {
+		color: var(--color-greyWhite);
+	}
+}

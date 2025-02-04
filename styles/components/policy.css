@@ -1,0 +1,9 @@
+.policy {
+	font-size: var(--font-size-xxsm);
+	color: var(--color-grayContrast);
+}
+
+.policy__list {
+	display: flex;
+	column-gap: var(--gap-sm);
+}

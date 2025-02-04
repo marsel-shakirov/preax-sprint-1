@@ -1,6 +1,5 @@
 .contacts {
 	line-height: var(--line-height-md);
-	text-align: end;
 }
 .contacts__tel {
 	font-size: var(--font-size-sm);
@@ -10,6 +9,38 @@
 	word-spacing: var(--word-spacing-primary);
 }
 
+.contacts__tel--md {
+	font-size: var(--font-size-md);
+}
+
+.contacts__tel--greyWhite {
+	color: var(--color-greyWhite);
+}
+
 .contacts__descr {
-	font-size: var(--padding-sm);
+	font-size: var(--font-size-xs);
+}
+
+.contacts__descr--xxsm {
+	font-size: var(--font-size-xxsm);
+}
+
+.contacts__descr--grayContrast {
+	color: var(--color-grayContrast);
+}
+
+.contacts--end {
+	text-align: end;
+}
+
+@media (any-hover: hover) {
+	.contacts__tel:hover {
+		color: var(--color-black);
+	}
+}
+
+@media (any-hover: hover) {
+	.contacts__tel.contacts__tel--greyWhite:hover {
+		color: var(--color-grayContrast);
+	}
 }

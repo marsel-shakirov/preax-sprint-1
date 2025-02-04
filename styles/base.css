@@ -23,35 +23,16 @@ body {
 	display: flex;
 	flex-direction: column;
 	row-gap: var(--gap-lg);
-	padding-bottom: var(--padding-xxlg);
+	padding-bottom: var(--padding-xlg);
+}
+
+.page-footer {
+	min-width: var(--content-width);
+	background-color: var(--color-black);
 }
 
 .container {
 	max-width: var(--content-width);
 	margin-inline: auto;
 	padding-inline: var(--padding-xxlg);
-}
-
-.visually-hidden {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-	white-space: nowrap;
-	clip-path: inset(100%);
-	clip: rect(0 0 0 0);
-	overflow: hidden;
-}
-
-.overlay::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	z-index: 10;
-	background-image: var(--gradient-card);
 }

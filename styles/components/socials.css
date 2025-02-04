@@ -1,0 +1,31 @@
+.socials {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--color-grayContrast);
+}
+
+.socials__list {
+	display: flex;
+	column-gap: var(--gap-xsm);
+}
+
+.socials__item {
+	background-color: var(--color-silver);
+	border-radius: var(--border-radius-sm);
+}
+
+.socials__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	color: inherit;
+}
+
+@media (any-hover: hover) {
+	.socials__link:hover {
+		color: var(--color-greyWhite);
+	}
+}

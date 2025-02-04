@@ -1,0 +1,23 @@
+.payment-card {
+	column-gap: var(--gap-xsm);
+}
+
+.payment-card__item {
+	background-color: var(--color-silver);
+	border-radius: var(--border-radius-xsm);
+}
+
+.payment-card__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 49px;
+	height: 29px;
+	color: inherit;
+}
+
+@media (any-hover: hover) {
+	.payment-card__link:hover {
+		color: var(--color-greyWhite);
+	}
+}
